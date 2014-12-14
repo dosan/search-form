@@ -1,0 +1,26 @@
+{
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "sandor/sandorpack",
+				"version": "dev-master",
+				"source": {
+					"url": "git://github.com/dosan/sandorpack.git",
+					"type": "git",
+					"reference": "sandorpack"
+				},
+				"autoload": {
+					"psr-0" : {
+						"Sandorpack" : "src"
+					}
+				}
+			}
+		}
+	],
+	"require": {
+		"sandor/sandorpack": "dev-master",
+		"monolog/monolog": "1.0.*",
+		"phalcon/devtools": "dev-master"
+	}
+}
